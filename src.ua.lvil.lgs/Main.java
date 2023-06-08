@@ -7,7 +7,7 @@ public class Main {
 
         mySet.add(new Obbj("Object1", 5));
         mySet.add(new Obbj("Object2", 2));
-        mySet.add(new Obbj("Object3", 8));
+        mySet.add(new Obbj("Object3", 9));
         mySet.add(new Obbj("Object4", 1));
 
         System.out.println("Невідсортований список:");
