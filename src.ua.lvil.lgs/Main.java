@@ -15,13 +15,16 @@ public class Main {
             System.out.println(obj);
         }
 
-        List<Obbj> sortedList = new ArrayList<>(mySet);
+        Set<Obbj> mySet1 = new TreeSet<Obbj>();
 
-        Collections.sort(sortedList);
+        mySet1.add(new Obbj("Object1", 5));
+        mySet1.add(new Obbj("Object2", 2));
+        mySet1.add(new Obbj("Object3", 9));
+        mySet1.add(new Obbj("Object4", 1));
 
         System.out.println("Відсортований список:");
-        for (Obbj obj : sortedList) {
-            System.out.println(obj);
+        for (Obbj arbitrarilyClassItem : mySet1) {
+            System.out.println(arbitrarilyClassItem);
         }
     }
 }
